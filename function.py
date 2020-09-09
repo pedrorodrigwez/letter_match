@@ -28,7 +28,7 @@ def letter_match(strArr):
 
 
 if __name__ == "__main__":
-
+    #Probando la función 
     strArr=["worldes","world,ess,worl,xx,eee,syqweerlrodw"]
     print(letter_match(strArr))       
     
