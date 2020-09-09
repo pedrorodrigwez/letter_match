@@ -1,6 +1,6 @@
 def letter_match(strArr):
     #la palabra buscada
-    my_word = strArr[0]]
+    my_word = strArr[0]
     #lista de las letras que conforman la palabra buscada.
     letters_of_word = [x for x in my_word] 
     #Convierte la segunda cadena de palabras separadas por coma en una lista de palabras.
