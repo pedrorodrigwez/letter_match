@@ -18,9 +18,11 @@ def letter_match(strArr):
             else:
                 counter += 0
         rank_word.append(counter)
+        #para los casos sin coincidencia se devuelve un -1
     if max(rank_word) < 1:
         return -1
     else:
+        #con base al ranking creado se busca la palabra que hace mejor match con las palabras de la lista y se devuelve la cantidad de caracteres a remover para un full match
         highest_match_index = rank_word.index(max(rank_word))
         highest_match_word =sep_list[highest_match_index]
         dif =  len(highest_match_word) - len(letters_of_word)
